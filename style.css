@@ -1,0 +1,63 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "fira-code", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: #f08f08;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+a {
+  color: #00ffe5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+summary {
+  background-color: #222;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #333;
+  margin-top: 1rem;
+}
+
+.subject {
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.subject h2 {
+  color: #ffa500;
+  margin-top: 1rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+
