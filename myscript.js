@@ -38,3 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('share-whatsapp').addEventListener('click', shareOnWhatsApp);
     document.getElementById('share-telegram').addEventListener('click', shareOnTelegram);
 });
+
+
+
+
+
