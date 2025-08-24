@@ -112,13 +112,12 @@ document.addEventListener('DOMContentLoaded', function () {
     displayResults(filteredResults);
   });
 
-  // Hide results if user clicks outside
-  document.addEventListener('click', function (event) {
-    if (!searchInput.contains(event.target)) {
-      searchResults.style.display = 'none';
-    }
-  });
-
+ // Hide results if user clicks outside of the search input OR the results box
+document.addEventListener('click', function (event) {
+  if (!searchInput.contains(event.target) && !searchResults.contains(event.target)) {
+    searchResults.style.display = 'none';
+  }
+});
   // Build the data once the page loads
   buildPyqData();
 });
