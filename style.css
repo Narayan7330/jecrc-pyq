@@ -454,3 +454,29 @@ footer a i {
     from { transform: scale(0.5); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
 }
+
+/* Styling for the updated notice box */
+.update-notice {
+    background-color: rgba(75, 75, 67, 0.15);
+    border-left: 4px solid #ff2200;
+    padding: 20px; /* Increased padding slightly */
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center; /* Center everything inside */
+}
+
+/* Add this new rule for your image */
+.update-notice img {
+    /* The image is centered by 'text-align: center' on the parent div */
+    margin-bottom: 15px; /* Adds space between the GIF and the text */
+    max-width: 650px;    /* Adjust this size if you like */
+}
+.update-notice p {
+    margin: 0;
+    color: #b71515;
+    text-align: center; /* Ensure paragraph text is also centered */
+}
+
+.update-notice p i {
+    margin-right: 8px;
+}
