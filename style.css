@@ -480,3 +480,13 @@ footer a i {
 .update-notice p i {
     margin-right: 8px;
 }
+
+.buyMeCoffee {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #313029;
+    border-radius: 8px;
+    border: 1px solid #4c4646;
+    box-shadow: 0 4px 18px rgba(191, 5, 5, 0.2);
+}
